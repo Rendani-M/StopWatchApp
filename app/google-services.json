@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "111772726791",
+    "firebase_url": "https://stopwatch-3a78a-default-rtdb.firebaseio.com",
+    "project_id": "stopwatch-3a78a",
+    "storage_bucket": "stopwatch-3a78a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111772726791:android:9a46dd1587c125d8d65ca2",
+        "android_client_info": {
+          "package_name": "com.StopWatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111772726791-npq8qgqipu27on7mfrjf9i2bds75avpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.StopWatch",
+            "certificate_hash": "71258004ae5bb9c0f8c51fba6c5f638ae5f3c71f"
+          }
+        },
+        {
+          "client_id": "111772726791-8gase3ojiso08psuqn5h0oic3lqlk4ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8FCwdazZAs1gd5Qkw-2HxEDgorwn7alM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111772726791-8gase3ojiso08psuqn5h0oic3lqlk4ar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111772726791:android:77501048f9622cead65ca2",
+        "android_client_info": {
+          "package_name": "com.stopwatchfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111772726791-8gase3ojiso08psuqn5h0oic3lqlk4ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8FCwdazZAs1gd5Qkw-2HxEDgorwn7alM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111772726791-8gase3ojiso08psuqn5h0oic3lqlk4ar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#211D44"
+    tools:context=".StopWatch">
+    <TextView
+        android:id="@+id/runtime"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="textEnd"
+        android:text="Run Time"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnprogress"/>
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="145dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:text="Date"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="135dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:text="Time"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/date"/>
+
+    <ImageView
+        android:id="@+id/bgcircle"
+        android:layout_width="276dp"
+        android:layout_height="247dp"
+        android:src="@drawable/bgcircle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/icanchor"
+        android:layout_width="358dp"
+        android:layout_height="357dp"
+        android:src="@drawable/icanchor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Chronometer
+        android:id="@+id/chronotimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bgcircle"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="62sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bgcircle"/>
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="145dp"
+        android:background="@drawable/bgbtngreen"
+        android:text="Start Now"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chronotimer"/>
+
+    <Button
+        android:id="@+id/btnstop"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/btnred"
+        android:text="Finish WorkOut"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnstart" />
+
+    <Button
+        android:id="@+id/btnprogress"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/btnred"
+        android:text="DATA"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
